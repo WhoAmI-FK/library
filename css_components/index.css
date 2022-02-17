@@ -1,0 +1,160 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F6F6;
+    padding:3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    color: #009595;
+    text-transform: uppercase;
+}
+
+#forTitle{
+    padding:1rem;
+    width: 95%;;
+}
+#nav-bar{
+    width: 100%;
+    background-color: #404040;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 2rem;
+}
+li{
+    padding:1rem;
+    font-size: 1.4rem;
+    color: white;
+    cursor: pointer;
+    width:8%;
+    display: flex;
+    justify-content: center;
+}
+.books-page,.visitors-page{
+    border-left:1px gray solid
+}
+.visitors-page,.cards-page{
+    border-right: 1px gray solid;
+}
+.functional{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    border-bottom: 1px gray solid;
+    padding-bottom: 1rem;
+}
+.functional h3{
+    color: #009595;
+    text-transform: uppercase;
+}
+.functional button{
+    width:15%;
+    font-size: 1.3rem;
+    padding:8px;
+}
+.interface-display{
+    width: 95%;
+    margin-top: 1rem;
+}
+form{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sorting,.searching{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sorting label,.searching label{
+    font-size: 1.4rem;
+}
+.sorting button, .searching button{
+    width: 25%;
+    padding:3px;
+    font-size:1.4rem;
+}
+.sorting select{
+    width:45%;
+    padding:5px;
+    font-size:1.4rem;
+}
+.searching input{
+    width: 45%;
+    padding:5px;
+    font-size: 1.4rem;
+}
+.interface-display table{
+    width: 100%;
+}
+table{
+    margin-top: 1.2rem;
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px black solid;
+    padding:1rem;
+    font-size:1.3rem;
+}
+thead td{
+    text-align: center;
+    font-weight: 600;
+}
+.message{
+    width: 40%;
+}
+.message form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.field{
+ width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.field label{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.field input,.field select{
+    width: 100%;
+    font-size: 1.2rem;
+    padding:3px;
+}
+.form-title{
+    margin-bottom: 1rem;
+}
+.label-field{
+    display: flex;
+    justify-content: space-between;
+}
+#sub{
+    padding:4px;
+    font-size:1.2rem;
+}
+.edit,.delete{
+    text-align: center;
+    font-size:2rem;
+    cursor: pointer;
+}
+.return{
+    text-align: center;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
